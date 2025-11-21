@@ -1,0 +1,21 @@
+# Ensure shell scripts always use LF line endings
+*.sh text eol=lf
+
+# PowerShell scripts use CRLF on Windows
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+
+# General text files
+*.md text
+*.txt text
+*.json text
+*.csv text
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

@@ -159,9 +159,44 @@ id,name,role,department
 3,Charlie,User,IT
 ```
 
+## Bash Versions
+
+Bash versions of all scripts are also available with the same functionality:
+
+- `j2c.sh` - JSON to CSV converter
+- `validate-json.sh` - JSON validator
+- `validate-csv.sh` - CSV validator
+
+**Usage:**
+```bash
+# Make executable (first time only)
+chmod +x tools/*.sh
+
+# JSON to CSV
+./tools/j2c.sh -i data.json -o output.csv
+cat data.json | ./tools/j2c.sh -i - > output.csv
+
+# Validate JSON
+./tools/validate-json.sh -p data.json -e
+cat data.json | ./tools/validate-json.sh -p -
+
+# Validate CSV
+./tools/validate-csv.sh -p data.csv
+./tools/validate-csv.sh -p data.tsv -d $'\t'
+
+# Run bash tests
+./tools/tests/test-bash-scripts.sh
+```
+
 ## Requirements
 
+**PowerShell versions:**
 - PowerShell 5.1+ or PowerShell Core 7+
 - Windows, Linux, or macOS
 - Pester (for testing only)
+
+**Bash versions:**
+- Bash 4.0+
+- `jq` command-line JSON processor (install with `apt-get install jq` or `brew install jq`)
+- Linux, macOS, WSL, or Git Bash on Windows
 
