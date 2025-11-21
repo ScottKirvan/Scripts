@@ -144,46 +144,37 @@ esac
 # Function to flatten nested objects with dot notation
 flatten_json() {
     local depth="$1"
-    jq -r --arg depth "$depth" --arg array_filter "$ARRAY_FILTER" '
-    def flatten_obj(prefix; max_depth; current_depth):
-        if current_depth >= (max_depth | tonumber) then
-            if type == "object" then
-                tostring
-            elif type == "array" then
-                ('"$ARRAY_FILTER"')
-            else
-                .
-            end
-        else
-            if type == "object" then
-                to_entries |
-                map(
-                    if .value | type == "object" then
-                        .value | flatten_obj((prefix + (if prefix == "" then "" else "." end) + .key); max_depth; current_depth + 1)
-                    elif .value | type == "array" then
-                        {key: (prefix + (if prefix == "" then "" else "." end) + .key), value: (.value | '"$ARRAY_FILTER"')}
+    jq -r --arg depth "$depth" '
+    def flatten_obj(prefix):
+        . as $in |
+        if type == "object" then
+            reduce keys[] as $key (
+                {};
+                . + (
+                    $in[$key] |
+                    if type == "object" then
+                        flatten_obj(prefix + (if prefix == "" then "" else "." end) + $key)
+                    elif type == "array" then
+                        {(prefix + (if prefix == "" then "" else "." end) + $key): ('"$ARRAY_FILTER"')}
                     else
-                        {key: (prefix + (if prefix == "" then "" else "." end) + .key), value: .value}
+                        {(prefix + (if prefix == "" then "" else "." end) + $key): .}
                     end
-                ) |
-                if type == "array" then . else [.] end |
-                flatten |
-                from_entries
-            elif type == "array" then
-                ('"$ARRAY_FILTER"')
-            else
-                .
-            end
+                )
+            )
+        elif type == "array" then
+            {(prefix): ('"$ARRAY_FILTER"')}
+        else
+            {(prefix): .}
         end;
 
     if type == "array" then
-        map(flatten_obj(""; $depth; 0))
+        map(flatten_obj(""))
     else
-        [flatten_obj(""; $depth; 0)]
+        [flatten_obj("")]
     end |
     (.[0] | keys_unsorted) as $keys |
     $keys,
-    (.[] | [.[$keys[]]] | map(. // "")) |
+    (.[] | [.[$keys[]]] | map(if . == null then "" else . end)) |
     @csv
     ' <<< "$JSON_DATA"
 }
