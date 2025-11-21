@@ -1,30 +1,30 @@
-# Scripts [![starline](https://starlines.qoo.monster/assets/ScottKirvan/Scripts)](https://github.com/qoomon/starline)
+# ScooterScripts [![starline](https://starlines.qoo.monster/assets/ScottKirvan/ScooterScripts)](https://github.com/qoomon/starline)
 <div align="center">
 
   <img src="assets/media/logo.jpg" alt="logo" width="200" height="auto" />
-    <h1><a href="https://github.com/ScottKirvan/Scripts">ScottKirvan/Scripts</a></h1>
+    <h1><a href="https://github.com/ScottKirvan/ScooterScripts">ScottKirvan/ScooterScripts</a></h1>
   <h3>Nulla nobis dicta iste minus dolor repellendus aspernatur atque</h3>
   
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/ScottKirvan/Scripts/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/ScottKirvan/Scripts" alt="contributors" />
+  <a href="https://github.com/ScottKirvan/ScooterScripts/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/ScottKirvan/ScooterScripts" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/ScottKirvan/Scripts" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/ScottKirvan/ScooterScripts" alt="last update" />
   </a>
-  <a href="https://github.com/ScottKirvan/Scripts/network/members">
-    <img src="https://img.shields.io/github/forks/ScottKirvan/Scripts" alt="forks" />
+  <a href="https://github.com/ScottKirvan/ScooterScripts/network/members">
+    <img src="https://img.shields.io/github/forks/ScottKirvan/ScooterScripts" alt="forks" />
   </a>
-  <a href="https://github.com/ScottKirvan/Scripts/stargazers">
-    <img src="https://img.shields.io/github/stars/ScottKirvan/Scripts" alt="stars" />
+  <a href="https://github.com/ScottKirvan/ScooterScripts/stargazers">
+    <img src="https://img.shields.io/github/stars/ScottKirvan/ScooterScripts" alt="stars" />
   </a>
-  <a href="https://github.com/ScottKirvan/Scripts/issues/">
-    <img src="https://img.shields.io/github/issues/ScottKirvan/Scripts" alt="open issues" />
+  <a href="https://github.com/ScottKirvan/ScooterScripts/issues/">
+    <img src="https://img.shields.io/github/issues/ScottKirvan/ScooterScripts" alt="open issues" />
   </a>
-  <a href="https://github.com/ScottKirvan/Scripts/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/ScottKirvan/Scripts.svg" alt="license" />
+  <a href="https://github.com/ScottKirvan/ScooterScripts/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/github/license/ScottKirvan/ScooterScripts.svg" alt="license" />
   </a>
   <a href="https://discord.gg/gQH4mXWQRT">
     <!--<img src="https://img.shields.io/discord/704680098577514527?style=flat-square&label=%F0%9F%92%AC%20discord&color=00ACD7">-->
@@ -35,15 +35,15 @@
 <h4>
     <a href="https://tinyurl.com/3vf7whyd">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/ScottKirvan/Scripts/blob/main/README.md">Documentation</a>
+    <a href="https://github.com/ScottKirvan/ScooterScripts/blob/main/README.md">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/ScottKirvan/Scripts/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/ScottKirvan/ScooterScripts/issues/new?template=bug_report.md">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/ScottKirvan/Scripts/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/ScottKirvan/ScooterScripts/issues/new?template=feature_request.md">Request Feature</a>
   </h4>
 </div>
 
-**Scripts** is voluptatibus magni nemo est. Nulla nobis dicta iste minus dolor repellendus aspernatur atque. Earum expedita aut inventore tempora fugiat deleniti. Molestias minima nam expedita beatae totam ipsa reprehenderit animi. Occaecati quibusdam beatae ducimus voluptate ut doloribus vitae amet. Quia ut ut voluptate dignissimos adipisci dolorum rem.
+**ScooterScripts** is voluptatibus magni nemo est. Nulla nobis dicta iste minus dolor repellendus aspernatur atque. Earum expedita aut inventore tempora fugiat deleniti. Molestias minima nam expedita beatae totam ipsa reprehenderit animi. Occaecati quibusdam beatae ducimus voluptate ut doloribus vitae amet. Quia ut ut voluptate dignissimos adipisci dolorum rem.
 
 ## Getting Started with This Template
 
@@ -63,12 +63,12 @@
 
 Branches
 --------
-`main` is the [deployed](https://ScottKirvan.github.io/Scripts/) branch.  The repo doesn't currently contain any other historic or dev branches.
+`main` is the [deployed](https://ScottKirvan.github.io/ScooterScripts/) branch.  The repo doesn't currently contain any other historic or dev branches.
 
 Repo Layout
 -----------
 ```
-Scripts
+ScooterScripts
 ├───_layouts                     # Jekyll layouts for GitHub Pages
 ├───.github
 │   ├───gitignore-templates      # Example .gitignore files (Unreal, Unity, Python, etc.)
@@ -129,7 +129,7 @@ Usage
 
 Contributions / Contact
 -----------------------
-- Please [file an issue](https://github.com/ScottKirvan/Scripts/issues/new), or [grab a fork](https://github.com/ScottKirvan/Scripts/fork), hack away, and submit a [pull request](https://github.com/ScottKirvan/Scripts/pulls).
+- Please [file an issue](https://github.com/ScottKirvan/ScooterScripts/issues/new), or [grab a fork](https://github.com/ScottKirvan/ScooterScripts/fork), hack away, and submit a [pull request](https://github.com/ScottKirvan/ScooterScripts/pulls).
 - Contact me at [linkedin.com/in/scottkirvan/](https://www.linkedin.com/in/scottkirvan/)
 - You can also contact me at my [discord](https://discord.gg/TSKHvVFYxB) server, I'm cptvideo.
 
@@ -138,6 +138,6 @@ Credits
 **[ScooterGitTemplate](https://github.com/ScottKirvan/ScooterGitTemplate) Copyright (c) (2025):** [Scott Kirvan](https://github.com/ScottKirvan)  - All rights reserved
 *ScooterGitTemplate is licensed under the [MIT License](LICENSE.md).*
 
-Project Link:  [Scripts](https://github.com/ScottKirvan/Scripts)  
+Project Link:  [ScooterScripts](https://github.com/ScottKirvan/ScooterScripts)  
 [CHANGELOG](notes/CHANGELOG.md)  
 [TODO](notes/TODO.md)

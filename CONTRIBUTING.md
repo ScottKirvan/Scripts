@@ -1,6 +1,6 @@
-# Contributing to Scripts
+# Contributing to ScooterScripts
 
-First off, thank you for considering contributing to Scripts! It's people like you that make this template better for everyone.
+First off, thank you for considering contributing to ScooterScripts! It's people like you that make this template better for everyone.
 
 ## Code of Conduct
 
@@ -78,7 +78,7 @@ feat!: change template initialization workflow
 ## Project Structure
 
 ```
-Scripts/
+ScooterScripts/
 ├── .github/
 │   ├── gitignore-templates/  # Example .gitignore files
 │   ├── ISSUE_TEMPLATE/       # Issue templates
