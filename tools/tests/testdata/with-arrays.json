@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "Project Alpha",
+    "tags": ["urgent", "backend", "api"],
+    "members": [
+        "alice@example.com",
+        "bob@example.com",
+        "charlie@example.com"
+    ],
+    "stats": {
+        "commits": 142,
+        "contributors": 3
+    }
+}

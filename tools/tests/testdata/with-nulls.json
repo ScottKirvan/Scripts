@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Active User",
+        "email": "user1@example.com",
+        "phone": null,
+        "notes": ""
+    },
+    {
+        "id": 2,
+        "name": "Inactive User",
+        "email": null,
+        "phone": "555-9999",
+        "notes": "Account suspended"
+    }
+]

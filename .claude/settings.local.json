@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(pwsh:*)",
+      "Bash(powershell.exe -File ConvertTo-Csv.ps1 -InputPath test.jjson)",
+      "Bash(powershell.exe -Command \"Get-Content test.jjson -Raw | ConvertFrom-Json | Get-Member\")",
+      "Bash(powershell.exe:*)",
+      "Bash(git mv:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

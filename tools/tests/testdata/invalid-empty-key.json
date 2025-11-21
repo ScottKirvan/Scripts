@@ -1,0 +1,5 @@
+{
+    "valid_key": "valid value",
+    "": "This has an empty key",
+    "another_valid": "another value"
+}

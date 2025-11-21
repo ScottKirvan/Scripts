@@ -1,0 +1,7 @@
+{
+    "text_with_quotes": "She said \"hello\" to me",
+    "text_with_comma": "Last, First, Middle",
+    "text_with_newline": "Line 1\nLine 2\nLine 3",
+    "unicode": "Hello 世界 🌍",
+    "url": "https://example.com/path?query=value&other=data"
+}
